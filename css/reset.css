@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	line-height: 1.6;
+	color: #101010;
+	background: linear-gradient(to right, #00264d, #99e6e6);
+	overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+p {
+	margin: 0;
+}
+
+/* Lists */
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Forms */
+input, textarea, button, select {
+	font-family: inherit;
+	font-size: inherit;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* Images */
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Remove default button styles */
+button {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Remove default input styles */
+input, textarea {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+/* Remove default select styles */
+select {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+/* Remove default fieldset styles */
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Remove default legend styles */
+legend {
+	padding: 0;
+}
+
+/* Remove default details styles */
+details {
+	display: block;
+}
+
+/* Remove default summary styles */
+summary {
+	display: list-item;
+}
+
+/* Remove default template styles */
+template {
+	display: none;
+}
+
+/* Remove default hidden styles */
+[hidden] {
+	display: none !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
